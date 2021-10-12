@@ -1,4 +1,5 @@
-import Pokedex from './Pokedex';
+import React from "react";
+import Pokegame from './Pokegame';
 
 const POKEMON_LIST = [
   {id: 4,   name: 'Charmander', type: 'fire',     base_experience: 62},
@@ -13,7 +14,7 @@ const POKEMON_LIST = [
 
 function App() {
   return (
-    <Pokedex pokemons={POKEMON_LIST} />
+    <Pokegame pokemons={POKEMON_LIST} />
   );
 }
 
